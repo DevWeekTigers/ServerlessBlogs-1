@@ -1,0 +1,139 @@
+body, html {
+  height: 100;
+  margin: 0;
+  font-family: Arial;
+}
+
+.tabcontent {
+
+  border: 2px solid blueviolet;
+  background: url("./assets/images/pexels-andrea-piacquadio-3772511.jpg");
+  background-repeat: no-repeat;
+  padding:  auto;
+  /* background-attachment: fixed; */
+  background-size:auto;
+  background-attachment: local;
+  
+
+}
+
+
+.nav-container {
+  background-color: #555;
+  color: white;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 100%;
+}
+
+
+
+.nav-container:hover {
+  background-color: rgb(29, 4, 4);
+}
+
+
+
+
+.nav-container {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+.page{
+
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+
+}
+
+
+.comp {
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+
+.categories-container {
+  border: 5px solid yellow;
+  border-radius: 20px;
+  background-color: rgb(0, 0, 150);
+  color: antiquewhite;
+}
+
+
+
+
+.feed-container {
+  border: 5px solid indigo;
+  border-radius: 20px;
+}
+
+
+
+.post-container {
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+.profile-container {
+  border: 5px solid purple;
+  border-radius: 20px;
+}
+
+main#navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #F99D1C;
+}
+
+.nav-container {
+  width: 70%;
+  height: 30px;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-around;
+  background-color: inherit;
+}
+
+.App-logo {
+  height: 60px;
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo[spin='true'] {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
